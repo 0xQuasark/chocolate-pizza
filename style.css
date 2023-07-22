@@ -1,4 +1,38 @@
 #rss-img {
-  padding-left: 50px;
+  padding-left: 15px;
   /* margin-left: 50px; */
+  /* background-color: blue; */
+}
+body {
+  max-width: 900px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#top-left {
+  display: flex;
+    justify-content: left;
+}
+
+#top-right {
+  justify-content: right;
+}
+
+#list-bg {
+  position: fixed;
+  border: thin solid red;
+}
+
+
+#delicious-text {
+  font-family: 'Cedarville Cursive', cursive;   
+  font-size: xx-large;
+  font-weight: bold;
+  flex: 1;
+  padding-bottom: 0;
+  margin: 0;
+  padding-left: 15px;
 }
